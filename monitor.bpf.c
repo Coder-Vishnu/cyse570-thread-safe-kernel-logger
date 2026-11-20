@@ -28,7 +28,7 @@ struct {
     __type(value, u64);
 } stats SEC(".maps");
 
-// Atomically increments the captured or dropped event counter
+// Updates the captured or dropped event counter
 static __always_inline void bump_stat(u32 idx) {
     u64 *val = bpf_map_lookup_elem(&stats, &idx);
     if (val)
