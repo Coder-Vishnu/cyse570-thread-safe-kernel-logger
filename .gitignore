@@ -1,0 +1,33 @@
+# Compiled binaries and eBPF build artifacts
+logger
+collector
+stress_test
+*.o
+*.skel.h
+vmlinux.h
+
+# Runtime logs, sockets, locks, and secret keys
+logs/
+checkpoints/
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
+*.swp
+
+# Compiled binaries and eBPF build artifacts
+logger
+collector
+stress_test
+*.o
+*.skel.h
+vmlinux.h
+
+# Runtime logs, sockets, locks, and secret keys
+logs/
+checkpoints/
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
+*.swp
