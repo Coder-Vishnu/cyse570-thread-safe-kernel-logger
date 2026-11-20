@@ -27,6 +27,7 @@ sudo apt install -y git clang llvm linux-tools-common linux-tools-$(uname -r) gc
 Compile the eBPF bytecode, skeleton header, and all user-space executables (`collector`, `logger`, and `stress_test`) with:
 ```bash
 make
+```
 
 ## How to Run
 
